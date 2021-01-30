@@ -9,6 +9,7 @@
 #include <QPainter>
 #include <QPushButton>
 #include <QtGlobal>
+#include <QPainterPath>
 
 BlocknetBreadCrumb::BlocknetBreadCrumb(QFrame *parent) : QFrame(parent), layout(new QHBoxLayout) {
 //    this->setStyleSheet("border: 1px solid red");
